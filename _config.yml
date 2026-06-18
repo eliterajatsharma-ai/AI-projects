@@ -1,0 +1,31 @@
+# Jekyll Configuration
+title: AI Projects
+description: some cool idea projects.
+author: eliterajatsharma-ai
+email: eliterajatsharma@gmail.com
+
+# URL Configuration
+url: "https://eliterajatsharma-ai.github.io"
+baseurl: "/AI-projects"
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Collections
+collections_dir: collections
+
+# Exclude files from processing
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
