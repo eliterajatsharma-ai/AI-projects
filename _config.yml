@@ -1,11 +1,4 @@
-# GitHub Pages Configuration
-title: AI Projects
-description: some cool idea projects.
-author: eliterajatsharma-ai
-
-# Disable Jekyll processing - serve static HTML directly
-markdown: false
-exclude:
-  - .gitignore
-  - Gemfile
-  - Gemfile.lock
+description: Your awesome link sharing platform
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
